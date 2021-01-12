@@ -59,6 +59,39 @@ h1 {
   transform: scale(1.2);
 }
 
-.disabled .elipse {
+.inative .elipse {
   fill: #2D3848;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+    
+  .name-page img {
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .time-wrapper {
+    margin-top: 15vh;
+  }
+  
+  .hours, .minutes, .seconds, .colon {
+    font-size: 18vw;
+    margin: 0 1vw;
+  }
+  
+  .colon {
+    font-size: 8vw;
+  }
+  
+  .button-wrapper {
+    margin-top: 15vh; 
+  }
+  
+  .start, .pause, .reset {
+    margin: 0 15px;
+  }
 }

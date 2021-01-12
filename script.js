@@ -5,6 +5,8 @@ const seconds = document.querySelector(".seconds");
 const minutes = document.querySelector(".minutes");
 const hours = document.querySelector(".hours");
 
+const inative = "inative";
+
 start.addEventListener("click", startTime);
 pause.addEventListener("click", pauseTime);
 reset.addEventListener("click", resetTime);
@@ -42,20 +44,20 @@ function startTime() {
     valueTime();
   }, 1000);
   start.setAttribute("disabled", "");
-  start.classList.toggle("disabled");
-  pause.classList.toggle("disabled");
-  reset.classList.remove("disabled");
+  start.classList.toggle(inative);
+  pause.classList.toggle(inative);
+  reset.classList.remove(inative);
 }
 
 function pauseTime() {
   clearInterval(timer);
   start.removeAttribute("disabled");
-  start.classList.toggle("disabled");
-  pause.classList.toggle("disabled");
+  start.classList.toggle(inative);
+  pause.classList.toggle(inative);
 }
 
 function resetTime() {
   seconds.innerText = "0" + 0;
   second = 0;
-  reset.classList.add("disabled");
+  reset.classList.add(inative);
 }
