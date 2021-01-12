@@ -42,14 +42,20 @@ function startTime() {
     valueTime();
   }, 1000);
   start.setAttribute("disabled", "");
+  start.classList.toggle("disabled");
+  pause.classList.toggle("disabled");
+  reset.classList.remove("disabled");
 }
 
 function pauseTime() {
   clearInterval(timer);
   start.removeAttribute("disabled");
+  start.classList.toggle("disabled");
+  pause.classList.toggle("disabled");
 }
 
 function resetTime() {
   seconds.innerText = "0" + 0;
   second = 0;
+  reset.classList.add("disabled");
 }
