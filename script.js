@@ -16,16 +16,14 @@ let minute = 0;
 let hour = 0;
 let timer;
 
-function valueTime() {
-  if (second < 10) {
-    seconds.innerText = "0" + second;
-  }
-  if (minute < 10) {
-    minutes.innerText = "0" + minute;
-  }
-  if (hour < 10) {
-    hours.innerText = "0" + hour;
-  }
+function formatTime() {
+  let formatHour = hour < 10 ? "0" + hour : hour;
+  let formatMinute = minute < 10 ? "0" + minute : minute;
+  let formatSecond = second < 10 ? "0" + second : second;
+
+  hours.innerText = formatHour;
+  minutes.innerText = formatMinute;
+  seconds.innerText = formatSecond;
 }
 
 function startTime() {
@@ -41,7 +39,7 @@ function startTime() {
       minute = 0;
       hours.innerText = ++hour;
     }
-    valueTime();
+    formatTime();
   }, 1000);
   start.setAttribute("disabled", "");
   start.classList.toggle(inative);
@@ -59,5 +57,9 @@ function pauseTime() {
 function resetTime() {
   seconds.innerText = "0" + 0;
   second = 0;
+  minutes.innerText = "0" + 0;
+  minute = 0;
+  hours.innerText = "0" + 0;
+  hour = 0;
   reset.classList.add(inative);
 }
