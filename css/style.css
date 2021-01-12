@@ -19,6 +19,8 @@ h1 {
 }
 
 .name-page img { 
+  max-width: 200px;
+  margin: 0 auto;
   margin-top: 20px;
 }
 
