@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174.109" height="147.73" viewBox="0 0 174.109 147.73">
+  <g id="clock-svg" transform="translate(-828.17 -202.27)">
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(851 221)" fill="none" stroke="#fff" stroke-width="4">
+      <circle cx="64.5" cy="64.5" r="64.5" stroke="none"/>
+      <circle cx="64.5" cy="64.5" r="62.5" fill="none"/>
+    </g>
+    <line id="Linha_3" data-name="Linha 3" x1="31.757" y2="33.742" transform="translate(887.934 281.816)" fill="none" stroke="#f79315" stroke-linecap="round" stroke-width="2"/>
+    <path id="Caminho_1" data-name="Caminho 1" d="M19.867,0C30.84,0,39.735,7.553,39.735,16.871s-8.895,7.608-19.867,7.608S0,26.189,0,16.871,8.895,0,19.867,0Z" transform="translate(828.17 229.473) rotate(-43)" fill="#fff"/>
+    <rect id="Retângulo_2" data-name="Retângulo 2" width="4.631" height="10.586" rx="2.316" transform="matrix(0.719, -0.695, 0.695, 0.719, 857.45, 233.635)" fill="#fff"/>
+    <g id="Retângulo_4" data-name="Retângulo 4" transform="translate(913 231)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="6" height="49" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="4" height="47" rx="2" fill="none"/>
+    </g>
+    <g id="Elipse_2" data-name="Elipse 2" transform="translate(913 283)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="3" cy="3" r="3" stroke="none"/>
+      <circle cx="3" cy="3" r="2" fill="none"/>
+    </g>
+    <line id="Linha_1" data-name="Linha 1" y2="3.97" transform="translate(915.721 279.831)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Retângulo_5" data-name="Retângulo 5" transform="matrix(0.309, 0.951, -0.951, 0.309, 954.693, 270.421)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="5.955" height="33.081" rx="2.977" stroke="none"/>
+      <rect x="1" y="1" width="3.955" height="31.081" rx="1.977" fill="none"/>
+    </g>
+    <line id="Linha_2" data-name="Linha 2" y2="6.616" transform="matrix(0.309, 0.951, -0.951, 0.309, 924.466, 283.373)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M19.867,0C30.84,0,39.735,7.553,39.735,16.871s-8.895,7.608-19.867,7.608S0,26.189,0,16.871,8.895,0,19.867,0Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 973.696, 202.27)" fill="#fff"/>
+    <rect id="Retângulo_6" data-name="Retângulo 6" width="4.631" height="10.586" rx="2.316" transform="translate(971.072 231.727) rotate(43)" fill="#fff"/>
+  </g>
+</svg>

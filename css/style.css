@@ -1,0 +1,64 @@
+body {
+  background: #20252C;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans';
+  font-size: 2.8rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F79315;
+}
+
+.name-page {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.name-page img { 
+  margin-top: 20px;
+}
+
+.time-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.hours, .minutes, .seconds, .colon {
+  font-family: 'Myriad Pro';
+  font-size: 9rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  color: #fff;
+  margin: 0 7px;
+}
+
+.colon {
+  font-size: 4rem;
+  color: #F79315;
+  align-self: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.start, .pause, .reset {
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.start:hover, .pause:hover, .reset:hover {
+  transform: scale(1.2);
+}
+
+.disabled .elipse {
+  fill: #2D3848;
+}
