@@ -18,11 +18,11 @@
     </div>
 
     <div class="time-wrapper">
-      <input type="select" id="hours">
+      <input type="text" id="hours" maxlength="2" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
       <span class="colon">:</span>
-      <input type="number" id="minutes">
+      <input type="text" id="minutes" maxlength="2" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
       <span class="colon">:</span>
-      <input type="number" id="seconds">
+      <input type="text" id="seconds" maxlength="2" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
     </div>
 
     <div class="button-wrapper">
