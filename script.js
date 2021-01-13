@@ -65,7 +65,7 @@ function stopWatch() {
     reset.classList.add(inative);
   }
 }
-// stopWatch();
+stopWatch();
 
 // Timer
 
