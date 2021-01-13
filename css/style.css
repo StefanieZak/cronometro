@@ -1,3 +1,5 @@
+/* Stopwatch */
+
 body {
   background: #20252C;
 }
@@ -96,4 +98,29 @@ h1 {
   .start, .pause, .reset {
     margin: 0 15px;
   }
+}
+
+/* Timer */
+
+.time-wrapper input {
+  border:none;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+  max-width: 200px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-family: 'Myriad Pro';
+  font-size: 9rem;
+  font-weight: bold;
+  letter-spacing: .2rem;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
 }
