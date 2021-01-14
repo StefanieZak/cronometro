@@ -39,13 +39,19 @@ function timer() {
       time = setInterval(() => {
         let seconds = secondsTimer.value;
         let minutes = minutesTimer.value;
+        let hours = hoursTimer.value;
 
-        --secondsTimer.value;
-        if (seconds == 0) {
+        if (hours == 0 && minutes == 0 && seconds == 0) {
+          pauseTimer();
+        }
+        if (seconds != 0) {
+          --secondsTimer.value;
+        }
+        if (minutes != 0 && seconds == 0) {
           secondsTimer.value = 59;
           --minutesTimer.value;
         }
-        if (minutes == 0) {
+        if (hours != 0 && minutes == 0) {
           minutesTimer.value = 59;
           --hoursTimer.value;
         }
@@ -66,9 +72,9 @@ function timer() {
   }
 
   function resetTimer() {
-    secondsTimer.value = 0;
-    minutesTimer.value = 0;
-    hoursTimer.value = 0;
+    secondsTimer.value = "";
+    minutesTimer.value = "";
+    hoursTimer.value = "";
     btnResetTimer.classList.add(inative);
   }
 }
