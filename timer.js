@@ -13,6 +13,23 @@ function timer() {
 
   let time;
 
+  function timeAdjustment() {
+    if (secondsTimer.value > 60) {
+      const newMinutes = Math.floor(secondsTimer.value / 60);
+      const secondsRest = Math.floor(secondsTimer.value % 60);
+      secondsTimer.value = secondsRest;
+      minutesTimer.value = minutesTimer.value + newMinutes;
+      console.log(newMinutes, secondsRest);
+    }
+    if (minutesTimer.value > 60) {
+      const newHours = Math.floor(minutesTimer.value / 60);
+      const minutesRest = Math.floor(minutesTimer.value % 60);
+      console.log(newHours, minutesRest);
+      minutesTimer.value = minutesRest;
+      hoursTimer.value = hoursTimer.value + newHours;
+    }
+  }
+
   function formatTime() {
     let formatHour =
       hoursTimer.value.length === 1 ? "0" + hoursTimer.value : hoursTimer.value;
@@ -36,6 +53,7 @@ function timer() {
       minutesTimer.value != 0 ||
       hoursTimer.value != 0
     ) {
+      timeAdjustment();
       time = setInterval(() => {
         let seconds = secondsTimer.value;
         let minutes = minutesTimer.value;
@@ -56,10 +74,10 @@ function timer() {
           --hoursTimer.value;
         }
         formatTime();
-      }, 10);
+      }, 1000);
       btnStartTimer.setAttribute("disabled", "");
-      btnStartTimer.classList.toggle(inative);
-      btnPauseTimer.classList.toggle(inative);
+      btnStartTimer.classList.add(inative);
+      btnPauseTimer.classList.remove(inative);
       btnResetTimer.classList.remove(inative);
     }
   }
@@ -67,8 +85,8 @@ function timer() {
   function pauseTimer() {
     clearInterval(time);
     btnStartTimer.removeAttribute("disabled");
-    btnStartTimer.classList.toggle(inative);
-    btnPauseTimer.classList.toggle(inative);
+    btnStartTimer.classList.remove(inative);
+    btnPauseTimer.classList.add(inative);
   }
 
   function resetTimer() {
