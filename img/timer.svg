@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143.887" height="121.145" viewBox="0 0 143.887 121.145">
+  <g id="timer" transform="translate(-1094.405 -238.806)">
+    <g id="Caminho_3" data-name="Caminho 3" transform="translate(1094.405 238.806)" fill="none">
+      <path d="M71.943,0c39.733,0,71.943,37.194,71.943,83.076s-32.21,37.463-71.943,37.463S0,128.957,0,83.076,32.21,0,71.943,0Z" stroke="none"/>
+      <path d="M 71.94329833984375 4 C 62.84455871582031 4 54.01340484619141 6.059974670410156 45.69516754150391 10.12269592285156 C 41.68136596679688 12.08308410644531 37.80693054199219 14.51195526123047 34.17947387695313 17.34180450439453 C 30.57421112060547 20.15436553955078 27.18144989013672 23.38730621337891 24.09545135498047 26.95082092285156 C 21.00049591064453 30.52469635009766 18.18905639648438 34.45990753173828 15.73930358886719 38.64712524414063 C 13.26072692871094 42.88360595703125 11.131103515625 47.41469573974609 9.409622192382813 52.11454010009766 C 5.820053100585938 61.91443634033203 4 72.33121490478516 4 83.07554626464844 C 4 86.98992919921875 4.24945068359375 90.57540893554688 4.741409301757813 93.73234558105469 C 5.205947875976563 96.71334838867188 5.901275634765625 99.40484619140625 6.808059692382813 101.7321319580078 C 8.451141357421875 105.949104309082 10.82106018066406 109.1273498535156 14.05320739746094 111.4484329223633 C 17.04495239257813 113.5968475341797 20.86792755126953 115.0804977416992 25.74057769775391 115.9841461181641 C 30.01249694824219 116.7763900756836 35.19449615478516 117.1453857421875 42.04864501953125 117.1453857421875 C 46.35986328125 117.1453857421875 50.89488220214844 117.0076904296875 55.69618988037109 116.8619079589844 C 60.92840576171875 116.7030410766602 66.33877563476563 116.5387573242188 71.94329833984375 116.5387573242188 C 77.54914855957031 116.5387573242188 82.95906066894531 116.7030410766602 88.19086456298828 116.8619079589844 C 92.99156188964844 117.0076904296875 97.52601623535156 117.1453857421875 101.8379516601563 117.1453857421875 C 108.6907958984375 117.1453857421875 113.8722991943359 116.7762832641602 118.1444091796875 115.9838027954102 C 123.0169982910156 115.0799331665039 126.8400573730469 113.596061706543 129.8321075439453 111.4473876953125 C 133.0646209716797 109.1260375976563 135.434814453125 105.9476928710938 137.0781402587891 101.7307586669922 C 137.9850311279297 99.40354156494141 138.6804504394531 96.71218872070313 139.1450653076172 93.73143005371094 C 139.6371307373047 90.57467651367188 139.8865966796875 86.98951721191406 139.8865966796875 83.07554626464844 C 139.8865966796875 72.33121490478516 138.0665435791016 61.91443634033203 134.4769744873047 52.11454010009766 C 132.7554931640625 47.41469573974609 130.6258697509766 42.88360595703125 128.1472930908203 38.64712524414063 C 125.6975402832031 34.45990753173828 122.886100769043 30.52469635009766 119.791145324707 26.95082092285156 C 116.7051467895508 23.38730621337891 113.312385559082 20.15436553955078 109.7071228027344 17.34180450439453 C 106.0796661376953 14.51195526123047 102.2052307128906 12.08308410644531 98.19142913818359 10.12269592285156 C 89.87318420410156 6.059974670410156 81.04203796386719 4 71.94329833984375 4 M 71.94329833984375 0 C 111.6764984130859 0 143.8865966796875 37.19417572021484 143.8865966796875 83.07554626464844 C 143.8865966796875 116.638053894043 126.6460723876953 121.1454010009766 101.8379516601563 121.1454010009766 C 92.73233032226563 121.1454010009766 82.61140441894531 120.5387573242188 71.94329833984375 120.5387573242188 C 61.27761077880859 120.5387573242188 51.15265655517578 121.1454010009766 42.04863739013672 121.1454010009766 C 17.23719787597656 121.1454010009766 0 116.6408538818359 0 83.07554626464844 C 0 37.19417572021484 32.21010589599609 0 71.94329833984375 0 Z" stroke="none" fill="#fff"/>
+    </g>
+    <line id="Linha_4" data-name="Linha 4" x2="139" y2="1" transform="translate(1096.5 303.5)" fill="none" stroke="#fff" stroke-width="3"/>
+    <path id="Polígono_3" data-name="Polígono 3" d="M4.5,0,9,7H0Z" transform="translate(1162 309)" fill="#f79315"/>
+    <g id="Retângulo_12" data-name="Retângulo 12" transform="translate(1193 285)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="4" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Retângulo_13" data-name="Retângulo 13" transform="translate(1165 285)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="4" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Retângulo_16" data-name="Retângulo 16" transform="translate(1173 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_17" data-name="Retângulo 17" transform="translate(1180 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_18" data-name="Retângulo 18" transform="translate(1187 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_20" data-name="Retângulo 20" transform="translate(1137 285)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="4" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Retângulo_21" data-name="Retângulo 21" transform="translate(1145 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_22" data-name="Retângulo 22" transform="translate(1152 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_23" data-name="Retângulo 23" transform="translate(1159 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_24" data-name="Retângulo 24" transform="translate(1221 285)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="4" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Retângulo_26" data-name="Retângulo 26" transform="translate(1201 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_27" data-name="Retângulo 27" transform="translate(1208 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_28" data-name="Retângulo 28" transform="translate(1215 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_30" data-name="Retângulo 30" transform="translate(1109 285)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="4" height="13" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="3" height="12" rx="1.5" fill="none"/>
+    </g>
+    <g id="Retângulo_31" data-name="Retângulo 31" transform="translate(1117 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_32" data-name="Retângulo 32" transform="translate(1124 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+    <g id="Retângulo_33" data-name="Retângulo 33" transform="translate(1131 293)" fill="#fff" stroke="#fff" stroke-width="1">
+      <rect width="2" height="5" rx="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="1" height="4" rx="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>

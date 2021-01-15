@@ -1,10 +1,10 @@
-/* Stopwatch */
+/* Home */
 
 body {
   background: #20252C;
 }
 
-h1 {
+h1, a {
   font-family: 'IBM Plex Sans';
   font-size: 2.8rem;
   letter-spacing: .1rem;
@@ -12,6 +12,59 @@ h1 {
   text-transform: uppercase;
   color: #F79315;
 }
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  min-width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  padding: 20px;
+  transition: .3s;
+}
+
+.menu a:first-child {
+  margin-right: 100px;
+}
+
+.menu a:hover {
+  border: 2px solid #F79315;
+}
+
+@media only screen and (max-width: 700px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu a {
+    max-width: 250px;
+    height: 200px;
+  }
+  
+  .menu a:first-child {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menu img {
+    max-width: 120px;
+  }
+}
+
+/* Stopwatch */
 
 .name-page {
   display: flex;
@@ -123,4 +176,11 @@ h1 {
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .time-wrapper input {
+    max-width: 20vw;
+    font-size: 15vw;
+  }
 }
