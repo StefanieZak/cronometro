@@ -178,25 +178,6 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.btn-notification {
-  display: flex;
-  margin: 40px auto;
-  background: #fff;
-  font-family: 'IBM Plex Sans';
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color:  #F79315;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-notification:hover {
-  background: #F79315;
-  color:  #fff;
-}
-
 @media only screen and (max-width: 768px) {
   .time-wrapper input {
     max-width: 20vw;

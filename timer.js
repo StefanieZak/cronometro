@@ -2,7 +2,6 @@ function timer() {
   const btnStartTimer = document.querySelector(".start");
   const btnPauseTimer = document.querySelector(".pause");
   const btnResetTimer = document.querySelector(".reset");
-  const btnNotification = document.querySelector(".btn-notification");
   const secondsTimer = document.getElementById("seconds");
   const minutesTimer = document.getElementById("minutes");
   const hoursTimer = document.getElementById("hours");
@@ -11,7 +10,6 @@ function timer() {
   btnStartTimer.addEventListener("click", startTimer);
   btnPauseTimer.addEventListener("click", pauseTimer);
   btnResetTimer.addEventListener("click", resetTimer);
-  btnNotification.addEventListener("click", permission);
 
   let time;
 
@@ -49,22 +47,6 @@ function timer() {
     secondsTimer.value = formatSecond;
   }
 
-  function permission() {
-    if (Notification.permission !== "denied") {
-      Notification.requestPermission();
-    }
-  }
-
-  function notifyMe() {
-    if (!("Notification" in window)) {
-      alert("Este browser não suporta notificações de Desktop");
-    } else if (Notification.permission === "granted") {
-      const notification = new Notification("Acabou o tempo.");
-    } else if (Notification.permission !== "denied") {
-      Notification.requestPermission();
-    }
-  }
-
   function alarm() {
     const audio = new Audio("./sounds/alarm.mp3");
     audio.play();
@@ -84,7 +66,6 @@ function timer() {
 
         if (hours == 0 && minutes == 0 && seconds == 0) {
           pauseTimer();
-          notifyMe();
           alarm();
         }
         if (seconds != 0) {
